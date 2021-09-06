@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSON Simulation Center Equipment and Supply Request</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+</head>
+  <body>
+  	<!-- body code goes here -->
+	    
+  <center>
+	  <h1>Covenant School of Nursing</h1>
+  <h2>Simulation Center</h2>
+		<img src="images/signage.jpg" width="349" height="200" alt=""/>
+	  </center>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="true" aria-label="Toggle navigation"> </button>
+  <div class id="navbarSupportedContent1">
+    <ul class="navbar-nav" align="center">
+      <li class="nav-item" align="center"> <a class="nav-link" href="index.html">Home</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="policy_new.html">CSNAH Policy & Procedure</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="#">Simulation Education Activities</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="#">Simulation Learning Guide</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="equipment.html">Equipment List</a> </li>
+	  <li class="nav-item" align="center"> <a class="nav-link" href="#">Request Simulation Space</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="#">Program Improvement</a> </li>
+      <li class="nav-item" align="center"> <a class="nav-link" href="#">COVID-19 Information</a> </li>
+    </ul>
+  </div>
+</nav>
+	 
+  <div>
+		  <br>
+		  <p>Please complete the form below. After submission, a member of the Simulation Center will contact you regarding your request.</p>
+		  <br>
+	  </div>
+
+<form action="results.html" method="put">
+	<label for="organization">Organization</label>	
+    	<select name="organization" id="organization">Organization
+		   	<option label="Please Select" selected disabled></option>
+		   	<optgroup label="Covenant School of Nursing and Allied Health">
+				<option label="CSON Instructional Module 1" value="IM1"></option>
+				<option label="CSON Instructional Module 2" value="IM2"></option>
+				<option label="CSON Instructional Module 3" value="IM3"></option>
+				<option label="CSON Instructional Module 4" value="IM4"></option>
+				<option label="CSON Instructional Module 5" value="IM5"></option>
+				<option label="CSON Instructional Module 6" value="IM6"></option>
+				<option label="CSON Instructional Module 7" value="IM7"></option>
+				<option label="CSON Instructional Module 8" value="IM8"></option>
+				<option label="CSON LVN-RN" value="LVN"></option>
+				<option label="CSON Monitor Tech" value="EKG"></option>
+				<option label="Covenant School of Radiography" value="CSOR"></option>
+			 </optgroup>
+			<optgroup label="Providence St. Joseph Health">
+			  	<option label="Covenant Medical Center" value="CMC"></option>
+				<option label="Covenant Children's Hospital" value="CCH"></option>				
+				<option label="Covenant Medical Group" value="CMG"></option>
+				<option label="Covenant Grace Health System" value="CGHS"></option>
+				<option label="Covenant Plainview/Levelland" value="CPL"></option>
+				<option label="Covenant Medical Residency Program" value="MRP"></option>
+			</optgroup>
+	  </select>
+    <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+  
+	  <br>
+	  <button type="submit" name="submit">Submit</button>
+  </form>
+	  
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>

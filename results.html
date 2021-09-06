@@ -12,9 +12,9 @@
   <body>
   	<!-- body code goes here -->
 <script>
-	  const resultslist = document.getElementById('results')
-	  new URLSearchParamas(window.location.seearch).forEach((value,name) =>{
-		  resultslist.append(`${name}`: ${value})
+	  const resultsList = document.getElementById('results')
+	  new URLSearchParams(window.location.search).forEach((value,name) => {
+		  resultslist.append(`${name}: ${value}`)
 		  resultslist.append(document.createElement('br'))
 	  })
 	  </script>
